@@ -13,7 +13,7 @@ from magician import *
 
 
 def deal_damage(attacker, defender):
-	# TODO: Obtenir l'arme utilisée.
+	# TODO: Obtenir l'arme utilisÃ©e.
 	#       Si l'attaquant est un magicien et que `Magician.will_use_spell()` donne vrai, il utilise sa magie.
 	#       Sinon il utilise son arme physique.
 	weapon_used = attacker.spell if isinstance(attacker, Magician) and attacker.will_use_spell() else attacker.weapon

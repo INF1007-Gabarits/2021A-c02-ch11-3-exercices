@@ -10,8 +10,8 @@ from game import *
 
 
 def simulate_battle():
-	c1 = Character("Äpik", 500, 150, 70, 70)
-	c2 = Character("Gämmör", 550, 100, 120, 60)
+	c1 = Character("Ã„pik", 500, 150, 70, 70)
+	c2 = Character("GÃ¤mmÃ¶r", 550, 100, 120, 60)
 	c3 = Magician("Damn! That magic dude", 450, 100, 50, 150, 50, 65)
 
 	c1.weapon = Weapon("BFG", 100, 69)
